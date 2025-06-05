@@ -1,12 +1,87 @@
-# React + Vite
+##  Project Structure
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```sh
+└── Planner.git/
+    ├── README.md
+    ├── eslint.config.js
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    ├── public
+    │   └── vite.svg
+    ├── src
+    │   ├── App.css
+    │   ├── App.jsx
+    │   ├── assets
+    │   ├── components
+    │   ├── index.css
+    │   └── main.jsx
+    └── vite.config.js
+```
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+###  Project Index
+<details open>
+	<summary><b><code>PLANNER.GIT/</code></b></summary>
+	<details> <!-- __root__ Submodule -->
+		<summary><b>__root__</b></summary>
+		<blockquote>
+			<table>
+			<tr>
+				<td><b><a href='https://github.com/ayush-acharya0/Planner.git/blob/master/package-lock.json'>package-lock.json</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/ayush-acharya0/Planner.git/blob/master/vite.config.js'>vite.config.js</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/ayush-acharya0/Planner.git/blob/master/package.json'>package.json</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/ayush-acharya0/Planner.git/blob/master/index.html'>index.html</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/ayush-acharya0/Planner.git/blob/master/eslint.config.js'>eslint.config.js</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			</table>
+		</blockquote>
+	</details>
+	<details> <!-- src Submodule -->
+		<summary><b>src</b></summary>
+		<blockquote>
+			<table>
+			<tr>
+				<td><b><a href='https://github.com/ayush-acharya0/Planner.git/blob/master/src/index.css'>index.css</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/ayush-acharya0/Planner.git/blob/master/src/App.css'>App.css</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/ayush-acharya0/Planner.git/blob/master/src/App.jsx'>App.jsx</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/ayush-acharya0/Planner.git/blob/master/src/main.jsx'>main.jsx</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			</table>
+			<details>
+				<summary><b>components</b></summary>
+				<blockquote>
+					<table>
+					<tr>
+						<td><b><a href='https://github.com/ayush-acharya0/Planner.git/blob/master/src/components/Navbar.jsx'>Navbar.jsx</a></b></td>
+						<td><code>❯ REPLACE-ME</code></td>
+					</tr>
+					</table>
+				</blockquote>
+			</details>
+		</blockquote>
+	</details>
+</details>
