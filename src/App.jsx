@@ -1,6 +1,8 @@
 import Navbar from "./components/Navbar";
 import { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
+import { FaRegEdit } from "react-icons/fa";
+import { MdOutlineDeleteForever } from "react-icons/md";
 function App() {
   const [list, setList] = useState([]);
   const [todo, setTodo] = useState("");
@@ -66,7 +68,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto  bg-violet-200 rounded-2xl shadow-lg p-4 my-2 text-xl min-h-80">
+      <div className="container mx-auto w-1/2 bg-violet-200 rounded-2xl shadow-lg p-4 my-2 text-xl min-h-80">
         <div className="add">
           <h1>Add the tasks</h1>
           <input
@@ -97,7 +99,7 @@ function App() {
                   onChange={handleCheckbox}
                   name={items.id}
                   type="checkbox"
-                  value={items.isCompleted}
+                  checked={items.isCompleted}
                 />
                 <span className={items.isCompleted ? "line-through" : ""}>
                   {" "}
@@ -109,17 +111,17 @@ function App() {
                     onClick={(e) => {
                       handleEdit(e, items.id);
                     }}
-                    className="bg-yellow-500 p-1 px-3 font-bold hover:bg-yellow-700 cursor-pointer text-white rounded-md m-2"
+                    className="bg-yellow-500  p-2 px-8 w-20 font-bold hover:bg-yellow-700 cursor-pointer text-black text-xl rounded-md m-2"
                   >
-                    Edit
+                    <FaRegEdit />
                   </button>
                   <button
                     onClick={(e) => {
                       handleDelete(e, items.id);
                     }}
-                    className="bg-red-600 p-1 px-3 font-bold hover:bg-red-900 cursor-pointer text-white rounded-md m-2"
+                    className="bg-red-600 p-2 px-8 w-20 font-bold hover:bg-red-900 text-xl cursor-pointer text-white rounded-md m-2"
                   >
-                    Delete
+                    <MdOutlineDeleteForever />
                   </button>
                 </span>
               </div>
