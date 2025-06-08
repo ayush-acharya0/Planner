@@ -68,14 +68,14 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto w-1/2 bg-violet-200 rounded-2xl shadow-lg p-4 my-2 text-xl min-h-80">
+      <div className="container mx-auto w-1/2 bg-violet-200 rounded-2xl shadow-2xl p-4 my-2 text-xl min-h-80">
         <div className="add">
           <h1>Add the tasks</h1>
           <input
             type="text "
             onChange={handleChange}
             value={todo}
-            className="w-1/2 border-2 px-1"
+            className="w-1/2 border-2 px-1 rounded-md"
             onKeyDown={handleKey}
           />
           <button
